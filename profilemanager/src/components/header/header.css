@@ -1,0 +1,43 @@
+.header {
+  height: 7vh;
+  width: 100vw;
+  border-bottom: 3px solid#F3F6F9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  height: 50%;
+  margin: auto 1.5rem;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.user-info {
+  margin: auto 6rem auto 0;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-name {
+  color: #005b96;
+  font-weight: 700;
+}
+
+.user-initials-box {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: auto 0.5rem;
+  background: #f6ca65;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}

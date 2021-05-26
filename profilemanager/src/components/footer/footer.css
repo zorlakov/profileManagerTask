@@ -1,0 +1,14 @@
+.footer-text {
+  color: #005b96;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 4.5rem;
+}
+
+.footer-text:hover {
+  cursor: pointer;
+}

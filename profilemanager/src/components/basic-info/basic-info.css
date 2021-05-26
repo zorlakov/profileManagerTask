@@ -1,0 +1,81 @@
+.contact-text {
+  color: #7e8299;
+}
+
+.menu-option {
+  height: 5em;
+}
+
+.menu-icons {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+
+.box-name {
+  color: #011f4b;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.info-text {
+  color: #7e8299;
+  margin-top: 0;
+  font-size: 0.8em;
+}
+
+.heading {
+  color: #011f4b;
+  margin-bottom: 0;
+}
+
+.info-box {
+  background: #f1fafe;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  height: 5em;
+}
+
+.contact-text {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.beze {
+  height: 3.5rem;
+}
+
+.initials-circle {
+  width: 4rem;
+  height: 4rem;
+  margin: auto 0;
+  background: #f6ca65;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+
+.box-text {
+  margin: auto;
+  margin-left: 0.7rem;
+}
+
+.items-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-info {
+  display: flex;
+}
+
+.option-description {
+  color: #cccccc;
+}
