@@ -35,6 +35,17 @@ export default class PersonalInfo extends Component {
             <label className='input-label'>Confirm password</label>
             <input className='input' type='password' name='password2' />
           </div>
+          <div className='password-rules'>
+            <span className='password-info'>At least one uppercase letter</span>
+            <span className='password-info'>At least one lowercase letter</span>
+            <span className='password-info'>At least one number</span>
+            <span className='password-info'>
+              At least one special character
+            </span>
+            <span className='password-info'>
+              At least eight characters long
+            </span>
+          </div>
         </form>
       </div>
     );

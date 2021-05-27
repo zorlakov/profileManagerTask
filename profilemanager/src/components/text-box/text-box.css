@@ -11,8 +11,9 @@
   background: #0db2f2;
   border-radius: 10px;
   padding: 0.85rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   width: 75%;
+  max-width: 210px;
 }
 
 .text-box {

@@ -5,8 +5,6 @@
 .input-form {
   display: flex;
   flex-wrap: wrap;
-
-  width: 70%;
 }
 
 .personal-infopage {
@@ -32,4 +30,16 @@
 .input-label {
   font-weight: 700;
   color: #011f4b;
+}
+
+.password-info {
+  color: #b5b5c3;
+  font-size: 0.7rem;
+}
+
+.password-rules {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 8px;
 }

@@ -32,15 +32,15 @@ export default class BasicInfo extends Component {
           </div>
           <div className='menu-item'>
             <img src={CreditCard} alt='creditcard' className='menu-option' />
-            <p className='option-description'>Personal info</p>
+            <p className='option-description'>Credit card details</p>
           </div>{' '}
           <div className='menu-item'>
             <img src={PaymentPlan} alt='payment' className='menu-option' />
-            <p className='option-description'>Personal info</p>
+            <p className='option-description'>Payment plan</p>
           </div>
           <div className='menu-item'>
             <img src={Billing} alt='billing' className='menu-option' />
-            <p className='option-description'>Personal info</p>
+            <p className='option-description'>Billing</p>
           </div>
         </div>
       </div>
