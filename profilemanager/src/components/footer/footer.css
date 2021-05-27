@@ -1,14 +1,26 @@
 .footer-text {
   color: #005b96;
   font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 6rem;
+  /* margin: auto 6rem; */
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
 }
 
 .footer-text:hover {
   cursor: pointer;
+}
+
+.terms {
+  margin-left: 6vw;
+}
+
+.version {
+  margin-right: 6vw;
 }

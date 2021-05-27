@@ -3,6 +3,8 @@ import PersonalInfo from '../../assets/personalInfo.svg';
 import CreditCard from '../../assets/creditCard.svg';
 import Billing from '../../assets/billing.svg';
 import PaymentPlan from '../../assets/paymentplan.svg';
+import { Link } from 'react-router-dom';
+
 import './basic-info.css';
 
 export default class BasicInfo extends Component {
@@ -10,12 +12,9 @@ export default class BasicInfo extends Component {
     return (
       <div className='basic-info'>
         <div className='heading-text'>
-          <div className='beze'>
-            <h3 className='heading'>Your account</h3>
-            <p className='info-text'>
-              You can modify personal information here
-            </p>
-          </div>
+          <h3 className='heading'>Your account</h3>
+          <p className='info-text'>You can modify personal information here</p>
+
           <div className='info-box'>
             <div className='initials-circle'>JD</div>
             <div className='box-text'>
@@ -26,22 +25,27 @@ export default class BasicInfo extends Component {
           </div>
         </div>
         <div className='menu-icons'>
-          <div className='menu-item'>
-            <img src={PersonalInfo} alt='personal' className='menu-option' />
+          <Link className='menu-item' to='/personal-info'>
+            <img
+              src={PersonalInfo}
+              alt='personal'
+              className='menu-option'
+              to='/personal-ifno'
+            />
             <p className='option-description'>Personal info</p>
-          </div>
-          <div className='menu-item'>
+          </Link>
+          <Link className='menu-item' to='/credit-cards'>
             <img src={CreditCard} alt='creditcard' className='menu-option' />
             <p className='option-description'>Credit card details</p>
-          </div>{' '}
-          <div className='menu-item'>
+          </Link>{' '}
+          <Link className='menu-item' to='/payment-plan'>
             <img src={PaymentPlan} alt='payment' className='menu-option' />
             <p className='option-description'>Payment plan</p>
-          </div>
-          <div className='menu-item'>
+          </Link>
+          <Link className='menu-item' to='/billing'>
             <img src={Billing} alt='billing' className='menu-option' />
             <p className='option-description'>Billing</p>
-          </div>
+          </Link>
         </div>
       </div>
 
