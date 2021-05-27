@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import BasicInfo from '../../components/basic-info/basic-info';
+import BasicInfo from '../basic-info/basic-info';
+import PersonalInfo from '../personal-info/personal-info';
+
 import './profile-manager.css';
 
 export default class ProfileManager extends Component {
@@ -8,6 +10,7 @@ export default class ProfileManager extends Component {
       <div className='page-body'>
         <div className='info'>
           <BasicInfo />
+          <PersonalInfo />
         </div>
         {/*   <div className='menu-icons'>
           <img src={PersonalInfo} alt='personal' />

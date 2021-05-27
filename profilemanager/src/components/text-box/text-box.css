@@ -1,0 +1,21 @@
+.box-title {
+  font-weight: 700;
+  color: #011f4b;
+}
+
+.information-text {
+  color: #ffffff;
+}
+
+.information-box {
+  background: #0db2f2;
+  border-radius: 10px;
+  padding: 0.85rem;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+.text-box {
+  margin-top: 1.5rem;
+  width: 30%;
+}

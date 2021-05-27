@@ -2,7 +2,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from '../src/components/header/header';
 import Footer from '../src/components/footer/footer';
-import ProfileManager from '../src/pages/profile-manager/profile-manager';
+import ProfileManager from '../src/components/profile-manager/profile-manager';
 function App() {
   return (
     <div>

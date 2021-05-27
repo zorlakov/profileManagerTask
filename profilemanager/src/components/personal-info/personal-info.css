@@ -1,0 +1,35 @@
+.text-info {
+  width: 30%;
+}
+
+.input-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 70%;
+}
+
+.personal-infopage {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group {
+  width: 45%;
+  margin-left: 5%;
+  margin-top: 1.75rem;
+}
+
+.input {
+  background: #f3f6f9;
+  border-radius: 10px;
+  border: none;
+  height: 2.5rem;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.input-label {
+  font-weight: 700;
+  color: #011f4b;
+}
