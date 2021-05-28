@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.infopage {
+.page-personal {
   display: flex;
   flex-direction: row;
 }
@@ -54,5 +54,15 @@
   }
   .input-label {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .form-group {
+    width: 88vw;
+  }
+
+  .page-personal {
+    flex-direction: column;
   }
 }

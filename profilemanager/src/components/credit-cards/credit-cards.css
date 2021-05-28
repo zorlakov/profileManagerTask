@@ -20,3 +20,83 @@
 .cards-form {
   margin: 0 auto;
 }
+
+.selected-card {
+  background: #1bc5bd;
+  color: #ffffff;
+}
+
+.non-selected {
+  color: #011f4b;
+  background: #f1fafe;
+}
+
+.single-card {
+  height: 40.15px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.single-card:hover {
+  cursor: pointer;
+}
+
+.add-card {
+  background: #005b96;
+  color: #ffffff;
+}
+
+.card-text {
+  padding-left: 10px;
+}
+
+.page-cards {
+  display: flex;
+}
+
+.circle {
+  background: #c6edff;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.check-yes {
+  display: flex;
+  justify-content: center;
+}
+
+.selected-circle {
+  background: #10a09a;
+}
+
+@media (max-width: 425px) {
+  .single-card {
+    width: 80vw;
+    margin: 20px auto;
+  }
+
+  .cardname-input {
+    width: 80vw;
+  }
+
+  .expiration-info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 875px) {
+  .page-cards {
+    flex-direction: column;
+  }
+
+  .single-card {
+    width: 35vw;
+    margin: 20px auto;
+  }
+}

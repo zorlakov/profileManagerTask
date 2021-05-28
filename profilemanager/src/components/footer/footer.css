@@ -8,9 +8,10 @@
   display: flex;
   justify-content: space-between;
   /* margin: auto 6rem; */
-  position: fixed;
+  /*   position: fixed;
   width: 100vw;
-  bottom: 0;
+  bottom: 0; */
+  width: 100vw;
 }
 
 .footer-text:hover {
@@ -23,4 +24,10 @@
 
 .version {
   margin-right: 6vw;
+}
+
+@media (max-width: 750px) {
+  .footer {
+    display: none;
+  }
 }

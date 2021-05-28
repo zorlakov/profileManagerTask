@@ -7,18 +7,33 @@
 .information-text {
   color: #ffffff;
   font-size: 15px;
+  width: 243px;
+  height: 112px;
 }
 
 .information-box {
   background: #0db2f2;
   border-radius: 10px;
-  padding: 0.85rem;
-  font-size: 1rem;
-  width: 75%;
+  height: 131px;
   width: 277px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .text-box {
   margin-top: 1.5rem;
   width: 277px;
+}
+
+@media (max-width: 870px) {
+  .information-box {
+    height: 100px;
+    width: 200px;
+  }
+  .information-text {
+    font-size: 11px;
+  }
+  .text-box {
+    display: none;
+  }
 }

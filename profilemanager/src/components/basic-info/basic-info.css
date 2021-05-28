@@ -26,7 +26,6 @@
 .box-name {
   color: #011f4b;
   margin: 0;
- 
   font-weight: 700;
 }
 
@@ -59,7 +58,6 @@
 .initials-circle {
   width: 4rem;
   height: 4rem;
-
   margin: auto 0 auto 0.8rem;
   background: #f6ca65;
   text-align: center;
@@ -90,4 +88,13 @@
   color: #cccccc;
   margin: 0;
   font-size: 14px;
+}
+
+@media (max-width: 870px) {
+  .menu-icons {
+    display: none;
+  }
+  .heading-text {
+    margin: auto;
+  }
 }

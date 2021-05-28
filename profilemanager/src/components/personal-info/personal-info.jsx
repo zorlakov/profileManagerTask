@@ -8,7 +8,7 @@ export default class PersonalInfo extends Component {
       'This is the personal info section of your account. Here you can easily change your basic info. After you finish updating this section please click the save changes button';
     const title = 'Personal info';
     return (
-      <div className='infopage'>
+      <div className='page-personal'>
         <TextBox className='text-info' info={info} title={title} />
         <form className='input-form'>
           <div className='form-group'>

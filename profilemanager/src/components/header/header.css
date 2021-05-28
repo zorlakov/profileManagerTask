@@ -42,8 +42,45 @@
   font-size: 1.6rem;
 }
 
+.mobile-menu {
+  font-size: 16px;
+  margin-top: 80px;
+  left: 0;
+  position: absolute;
+  background: white;
+  height: 50vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mobile-menu-option {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #005b96;
+}
+
+.footer-items {
+  font-size: 12px;
+}
+
+.mobile-item {
+  text-decoration: none;
+}
+
+.mobile-menu-option:hover {
+  cursor: pointer;
+}
+
 @media (max-height: 775px) {
   .header {
     height: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .user-info {
+    margin: auto;
   }
 }
