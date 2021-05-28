@@ -8,32 +8,52 @@ export default class PersonalInfo extends Component {
       'This is the personal info section of your account. Here you can easily change your basic info. After you finish updating this section please click the save changes button';
     const title = 'Personal info';
     return (
-      <div className='personal-infopage'>
+      <div className='infopage'>
         <TextBox className='text-info' info={info} title={title} />
         <form className='input-form'>
           <div className='form-group'>
             <label className='input-label'>First name</label>
-            <input className='input' type='text' name='firstname' />
+            <input
+              className='personal-input input'
+              type='text'
+              name='firstname'
+            />
           </div>
           <div className='form-group'>
             <label className='input-label'>Email</label>
-            <input className='input' type='text' name='lastname' />
+            <input
+              className='personal-input input'
+              type='text'
+              name='lastname'
+            />
           </div>
           <div className='form-group'>
             <label className='input-label'>Last name</label>
-            <input className='input' type='text' name='email' />
+            <input className='personal-input input' type='text' name='email' />
           </div>
           <div className='form-group'>
             <label className='input-label'>Mobile phone</label>
-            <input className='input' type='number' name='mobile' />
+            <input
+              className='personal-input input'
+              type='number'
+              name='mobile'
+            />
           </div>
           <div className='form-group'>
             <label className='input-label'>Password</label>
-            <input className='input' type='password' name='password1' />
+            <input
+              className='personal-input input'
+              type='password'
+              name='password1'
+            />
           </div>
           <div className='form-group'>
             <label className='input-label'>Confirm password</label>
-            <input className='input' type='password' name='password2' />
+            <input
+              className='personal-input input'
+              type='password'
+              name='password2'
+            />
           </div>
           <div className='password-rules'>
             <span className='password-info'>At least one uppercase letter</span>

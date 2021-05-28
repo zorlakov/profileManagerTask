@@ -5,7 +5,7 @@ export default class TextBox extends Component {
   render() {
     return (
       <div className='text-box'>
-        <span className='box-title'>{this.props.title}</span>
+        <p className='box-title'>{this.props.title}</p>
         <div className='information-box'>
           <span className='information-text'>{this.props.info}</span>
         </div>

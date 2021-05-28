@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.personal-infopage {
+.infopage {
   display: flex;
   flex-direction: row;
 }
@@ -25,6 +25,7 @@
   height: 2.5rem;
   width: 100%;
   margin-top: 5px;
+  height: 56px;
 }
 
 .input-label {
@@ -34,7 +35,7 @@
 
 .password-info {
   color: #b5b5c3;
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 
 .password-rules {
@@ -42,4 +43,16 @@
   flex-direction: column;
   margin-left: 5%;
   margin-top: 8px;
+}
+
+@media (max-height: 775px) {
+  .personal-input {
+    height: 35px;
+  }
+  .password-info {
+    font-size: 10px;
+  }
+  .input-label {
+    font-size: 13px;
+  }
 }

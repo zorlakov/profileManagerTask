@@ -1,0 +1,22 @@
+.cardname-input {
+  width: 450px;
+}
+
+.expiration-input {
+  width: 219px;
+}
+
+.expiration-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-group {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-form {
+  margin: 0 auto;
+}

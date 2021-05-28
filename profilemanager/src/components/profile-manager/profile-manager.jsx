@@ -10,7 +10,7 @@ export default class ProfileManager extends Component {
       <div className='page-body'>
         <div className='info'>
           <BasicInfo />
-          <> {this.props.PersonalInfo} </>
+          <> {this.props.Page} </>
         </div>
       </div>
     );

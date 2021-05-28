@@ -4,6 +4,6 @@ import PersonalInfo from '../../components/personal-info/personal-info';
 
 export default class PersonalPage extends Component {
   render() {
-    return <ProfileManager className='page' PersonalInfo={<PersonalInfo />} />;
+    return <ProfileManager className='page' Page={<PersonalInfo />} />;
   }
 }

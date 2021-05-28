@@ -1,10 +1,12 @@
 .box-title {
   font-weight: 700;
   color: #011f4b;
+  width: max-content;
 }
 
 .information-text {
   color: #ffffff;
+  font-size: 15px;
 }
 
 .information-box {
@@ -18,5 +20,5 @@
 
 .text-box {
   margin-top: 1.5rem;
-  width: 30%;
+  width: 277px;
 }
