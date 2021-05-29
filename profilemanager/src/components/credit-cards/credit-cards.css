@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   padding-left: 10px;
+  width: 277px;
 }
 
 .single-card:hover {
@@ -78,7 +79,6 @@
 
 @media (max-width: 425px) {
   .single-card {
-    width: 80vw;
     margin: 20px auto;
   }
 
@@ -97,7 +97,6 @@
   }
 
   .single-card {
-    width: 35vw;
     margin: 20px auto;
   }
 }
