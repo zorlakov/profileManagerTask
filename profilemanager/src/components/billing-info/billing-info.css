@@ -1,0 +1,69 @@
+.billing-info {
+  display: flex;
+  margin-top: 24px;
+}
+
+.table-area {
+  width: 942px;
+  height: 269px;
+  background-color: #f1fafe;
+  border-radius: 10px;
+  margin: 24px auto;
+}
+
+.table-description {
+  width: 90%;
+  margin: auto;
+}
+
+.table-title {
+  font-weight: 700;
+  color: #011f4b;
+  margin-bottom: 0;
+}
+
+.table-secondary {
+  color: #7e8299;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  color: #011f4b;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background: #f1fafe;
+}
+
+td:last-child {
+  text-align: end;
+}
+
+th:last-child {
+  text-align: end;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+th:nth-child(2) {
+  text-align: center;
+}
