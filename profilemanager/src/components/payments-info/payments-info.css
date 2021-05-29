@@ -1,0 +1,11 @@
+.payments {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}

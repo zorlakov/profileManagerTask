@@ -1,0 +1,69 @@
+.option-card {
+  height: 408px;
+  width: 190px;
+  background: #f1fafe;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.payment-option-text {
+  margin: 10px auto;
+}
+
+.type,
+.price {
+  font-size: 24px;
+  color: #011f4b;
+  font-weight: 700;
+}
+
+.monthly {
+  font-size: 12px;
+  color: #cccccc;
+  font-weight: 400;
+}
+
+.description {
+  color: #011f4b;
+}
+
+.payment-image {
+  height: 80px;
+  width: 80px;
+}
+
+.select-cancel {
+  width: 147px;
+  height: 32.8px;
+  background: #f1fafe;
+  border-radius: 5px;
+  margin: 3px auto;
+  font-size: 14px;
+  border: 1px solid #011f4b;
+}
+
+.selected {
+  background: #1bc5bd;
+  color: white;
+  width: 147px;
+  height: 32.8px;
+  margin: 3px auto;
+  border-radius: 5px;
+  border: none;
+}
+
+.select-cancel:hover {
+  cursor: pointer;
+}
+
+.selected:hover {
+  cursor: pointer;
+}
+.plan-buttons {
+  display: flex;
+  flex-direction: column;
+}
