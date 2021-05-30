@@ -28,3 +28,9 @@
     display: none;
   }
 }
+
+@media (max-height: 775px) {
+  .footer {
+    display: none;
+  }
+}

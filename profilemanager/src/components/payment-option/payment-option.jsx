@@ -19,7 +19,12 @@ export default class PaymentOption extends Component {
         </p>
         {this.props.selected ? (
           <div className='plan-buttons'>
-            <button className='select-cancel selected'>Plan selected</button>
+            <button className='select-cancel selected'>
+              <p className='selectedplan-text'>Plan selected</p>
+              <p className='plan-selected-circle'>
+                <p className='check-plan'>&#10003;</p>
+              </p>
+            </button>
             <Link to='/confirm-cancelation'>
               <button className='select-cancel'>Cancel subscription</button>
             </Link>
