@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './personal-info.css';
 import TextBox from '../text-box/text-box';
+import SaveButton from "../save-button/save-button"
 
 export default class PersonalInfo extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class PersonalInfo extends Component {
       'This is the personal info section of your account. Here you can easily change your basic info. After you finish updating this section please click the save changes button';
     const title = 'Personal info';
     return (
+      <div className="page-container">
       <div className='page-personal'>
         <TextBox className='text-info' info={info} title={title} />
         <form className='input-form'>
@@ -67,6 +69,10 @@ export default class PersonalInfo extends Component {
             </span>
           </div>
         </form>
+      </div>
+      <div className="save-button-container">
+        <SaveButton />
+      </div>
       </div>
     );
   }

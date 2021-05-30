@@ -4,6 +4,7 @@ import PaymentOption from '../../components/payment-option/payment-option';
 import StarterIcon from '../../assets/starter.svg';
 import EnterpriseIcon from '../../assets/enterprise.svg';
 import BusinessIcon from '../../assets/business.svg';
+import SaveButton from '../save-button/save-button';
 import './payments-info.css';
 
 export default class Payments extends Component {
@@ -31,30 +32,35 @@ export default class Payments extends Component {
     );
 
     return (
-      <div className='payments'>
-        <TextBox className='text-info' info={info} title={title} />
-        <div className='payment-options'>
-          <PaymentOption
-            icon={StarterIcon}
-            type={'Starter'}
-            price={'$5'}
-            description={starterDesc}
-            selected={true}
-          />
-          <PaymentOption
-            icon={BusinessIcon}
-            type={'Business'}
-            price={'$10'}
-            description={businessDesc}
-            selected={false}
-          />
-          <PaymentOption
-            icon={EnterpriseIcon}
-            type={'Enterprise'}
-            price={'$15'}
-            description={enterpriseDesc}
-            selected={false}
-          />
+      <div className='page-container'>
+        <div className='payments'>
+          <TextBox className='text-info' info={info} title={title} />
+          <div className='payment-options'>
+            <PaymentOption
+              icon={StarterIcon}
+              type={'Starter'}
+              price={'$5'}
+              description={starterDesc}
+              selected={true}
+            />
+            <PaymentOption
+              icon={BusinessIcon}
+              type={'Business'}
+              price={'$10'}
+              description={businessDesc}
+              selected={false}
+            />
+            <PaymentOption
+              icon={EnterpriseIcon}
+              type={'Enterprise'}
+              price={'$15'}
+              description={enterpriseDesc}
+              selected={false}
+            />
+          </div>
+        </div>
+        <div className='save-button-container'>
+          <SaveButton />
         </div>
       </div>
     );

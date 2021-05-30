@@ -1,3 +1,10 @@
+.page-container {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .text-info {
   width: 30%;
 }

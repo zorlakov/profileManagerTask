@@ -3,6 +3,7 @@ import './credit-cards.css';
 import TextBox from '../../components/text-box/text-box';
 import CardSelected from '../../assets/cardSelected.svg';
 import CardNormal from '../../assets/cardNormal.svg';
+import SaveButton from '../save-button/save-button';
 
 export default class CreditCards extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class CreditCards extends Component {
       'Select a valid credit card for your Balance account or add a new card by clicking add new card and filling out the required card information on the left. New card can be selected after being added on the list below.';
     const title = 'Your credit cards';
     return (
+      <div className="page-container">
       <div className='page-cards'>
         <div className='cards-info'>
           <TextBox className='text-info' info={info} title={title} />
@@ -67,6 +69,10 @@ export default class CreditCards extends Component {
             </div>
           </div>
         </form>
+      </div>
+      <div className="save-button-container">
+        <SaveButton />
+      </div>
       </div>
     );
   }

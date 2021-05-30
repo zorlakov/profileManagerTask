@@ -3,4 +3,7 @@
   height: 32px;
   background: #1bc5bd;
   border-radius: 5px;
+  border: none;
+  color: white;
+  float: right;
 }
