@@ -9,8 +9,8 @@ import './payments-info.css';
 export default class Payments extends Component {
   render() {
     const info =
-      'This is the personal info section of your account. Here you can easily change your basic info. After you finish updating this section please click the save changes button';
-    const title = 'Personal info';
+      'This is the payment plan section of your account. Here you can easily change your basic info. After you finish updating this section please click the save changes button';
+    const title = 'Payment plan';
     const starterDesc = (
       <p>
         Up to 5 gateways <br></br> Basic supoprt <br></br> Monthly updates{' '}
@@ -46,7 +46,7 @@ export default class Payments extends Component {
             type={'Business'}
             price={'$10'}
             description={businessDesc}
-            selected ={false}
+            selected={false}
           />
           <PaymentOption
             icon={EnterpriseIcon}

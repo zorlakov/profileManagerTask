@@ -1,0 +1,51 @@
+.cancel-plan-main {
+  min-height: 86vh;
+  width: 88vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.cancelation-items {
+  max-width: 470px;
+  margin: 20px auto;
+}
+
+.message {
+  color: #011f4b;
+  text-align: center;
+}
+
+.main-message {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cards-header {
+  color: #011f4b;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.journey-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.journey-cards-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-buttons-options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 380px) {
+  .journey-cards-list {
+    flex-direction: column;
+    margin: auto;
+  }
+}

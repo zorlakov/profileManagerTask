@@ -3,7 +3,9 @@ import './footer.css';
 
 export default class Footer extends Component {
   render() {
-    return (
+    return window.location.pathname === '/plan-canceled' ? (
+      ''
+    ) : (
       <div className='footer'>
         <span className='footer-text terms'>
           Terms &amp; Conditions | Privacy policy

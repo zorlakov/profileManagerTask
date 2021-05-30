@@ -57,6 +57,12 @@
   }
 }
 
+@media (max-width: 875px) {
+  .page-personal {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 425px) {
   .form-group {
     width: 88vw;

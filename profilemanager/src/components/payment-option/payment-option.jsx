@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './payment-option.css';
 
 export default class PaymentOption extends Component {
@@ -17,9 +18,11 @@ export default class PaymentOption extends Component {
           {this.props.description}
         </p>
         {this.props.selected ? (
-          <div className="plan-buttons">
-            <button className='select cancel selected'>Plan selected</button>
-            <button className='select-cancel'>Cancel subscription</button>
+          <div className='plan-buttons'>
+            <button className='select-cancel selected'>Plan selected</button>
+            <Link to='/confirm-cancelation'>
+              <button className='select-cancel'>Cancel subscription</button>
+            </Link>
           </div>
         ) : (
           <button className='select-cancel'>Select plan</button>

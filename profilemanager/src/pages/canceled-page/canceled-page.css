@@ -1,0 +1,27 @@
+.canceled-page {
+  display: flex;
+  height: calc(100vh - 83px);
+}
+
+.canceled-image {
+  height: calc(100vh -83px);
+}
+
+.info-cancel {
+  color: #011f4b;
+
+  font-weight: 700;
+}
+
+.main {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.secondary {
+  margin-top: 12px;
+}
+
+.canceled-text-info {
+  margin: auto;
+}

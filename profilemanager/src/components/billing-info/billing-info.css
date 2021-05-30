@@ -67,3 +67,28 @@ td:nth-child(2) {
 th:nth-child(2) {
   text-align: center;
 }
+
+@media (max-width: 1400px) {
+  .table-area {
+    width: 60%;
+  }
+}
+
+@media (max-width: 920px) {
+  .billing-info {
+    flex-direction: column;
+  }
+
+  .table-area {
+    width: 85%;
+  }
+}
+
+@media (max-width: 670px) {
+  .table-area {
+    width: 95%;
+  }
+  table {
+    width: 100%;
+  }
+}
