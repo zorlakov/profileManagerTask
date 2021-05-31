@@ -1,10 +1,10 @@
 .canceled-page {
   display: flex;
-  height: calc(100vh - 83px);
+  height: calc(100vh - 58px);
 }
 
 .canceled-image {
-  height: calc(100vh -83px);
+  height: calc(100vh - 58px);
 }
 
 .info-cancel {
@@ -24,4 +24,16 @@
 
 .canceled-text-info {
   margin: auto;
+}
+
+@media (max-width: 550px) {
+  .canceled-image {
+    display: none;
+  }
+  .canceled-text-info {
+    text-align: center;
+  }
+  .canceled-page {
+    height: calc(100vh - 58px);
+  }
 }
