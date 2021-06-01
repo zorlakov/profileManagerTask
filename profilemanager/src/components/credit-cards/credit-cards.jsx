@@ -46,7 +46,7 @@ export default class CreditCards extends Component {
             <label className='input-label'>Card number</label>
             <input
               className='cardname-input input'
-              type='number'
+              type='text'
               name='number'
             />
           </div>
@@ -55,7 +55,7 @@ export default class CreditCards extends Component {
               <label className='input-label'>Expiration month</label>
               <input
                 className='expiration-input input'
-                type='number'
+                type='text'
                 name='month'
               />
             </div>
@@ -63,7 +63,7 @@ export default class CreditCards extends Component {
               <label className='input-label'>Expiration year</label>
               <input
                 className='expiration-input input'
-                type='number'
+                type='text'
                 name='year'
               />
             </div>
